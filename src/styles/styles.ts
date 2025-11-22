@@ -34,7 +34,7 @@ export const Styles = createGlobalStyle`* {
     }
 
     a:hover {
-        color: #020;
+        color: #1f0c0a;
     }
 
     input,
@@ -60,7 +60,7 @@ export const Styles = createGlobalStyle`* {
     h5,
     h6 {
         font-family: 'Motiva Sans Bold', serif;
-        color: #020;
+        color: #1f0c0a;
         font-size: 56px;
         line-height: 1.18;
 
@@ -74,7 +74,7 @@ export const Styles = createGlobalStyle`* {
     }
 
     p {
-        color: #020;
+        color: #1f0c0a;
         font-size: 21px;        
         line-height: 1.41;
     }
