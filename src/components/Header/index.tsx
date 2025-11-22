@@ -59,7 +59,7 @@ const Header = ({ t }: { t: TFunction }) => {
       <Container>
         <Row justify="space-between">
           <LogoContainer to="/" aria-label="homepage">
-            <h1 style={{ fontSize: "30px", margin: 0 }}>Wellington's<br/>Portfolio</h1>
+            <h1 style={{ fontSize: "30px", margin: 0, color: "#096192" }}>Wellington's<br/>Portfolio</h1>
           </LogoContainer>
           <NotHidden>
             <MenuItem />
