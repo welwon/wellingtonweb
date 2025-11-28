@@ -7,14 +7,14 @@ import i18n from "i18next";
 import {
   FooterSection,
   Title,
-  NavLink,
+  //NavLink,
   Extra,
-  LogoContainer,
+  //LogoContainer,
   Para,
   Large,
   Chat,
   Empty,
-  FooterContainer,
+  //FooterContainer,
   Language,
   Label,
   LanguageSwitch,
@@ -31,7 +31,7 @@ const Footer = ({ t }: { t: TFunction }) => {
     i18n.changeLanguage(language);
   };
 
-  const SocialLink = ({ href, src }: SocialLinkProps) => {
+  /*const SocialLink = ({ href, src }: SocialLinkProps) => {
     return (
       <a
         href={href}
@@ -43,7 +43,7 @@ const Footer = ({ t }: { t: TFunction }) => {
         <SvgIcon src={src} width="25px" height="25px" />
       </a>
     );
-  };
+  };*/
 
   return (
     <>
@@ -110,7 +110,8 @@ const Footer = ({ t }: { t: TFunction }) => {
           </Row>
         </Container>
       </FooterSection>
-      {/*<Extra>
+      <Extra></Extra>
+      {/*
         <Container border={true}>
           <Row
             justify="space-between"
@@ -159,7 +160,7 @@ const Footer = ({ t }: { t: TFunction }) => {
             </FooterContainer>
           </Row>
         </Container>
-      </Extra>*/}
+      */}
     </>
   );
 };
