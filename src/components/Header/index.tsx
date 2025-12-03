@@ -6,6 +6,8 @@ import { Button } from "../../common/Button";
 import {
   HeaderSection,
   LogoContainer,
+  LogoH1,
+  LogoH3,
   Burger,
   NotHidden,
   Menu,
@@ -58,8 +60,8 @@ const Header = ({ t }: { t: TFunction }) => {
       <Container>
         <Row justify="space-between">
           <LogoContainer to="/" aria-label="homepage">
-            <h1 style={{ fontSize: "30px", margin: 0, color: "#096192" }}>Wellington's</h1>
-            <h3 style={{ fontSize: "20px", margin: 0, color: "#096192" }}>Portfolio</h3>
+            <LogoH1>Wellington's</LogoH1>
+            <LogoH3>Portfolio</LogoH3>
           </LogoContainer>
           <NotHidden>
             <MenuItem />

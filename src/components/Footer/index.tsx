@@ -58,6 +58,9 @@ const Footer = ({ t }: { t: TFunction }) => {
               <a href="mailto:wellingtonwong@gmail.com">
                 <Chat>{t(`Let's Chat`)}</Chat>
               </a>
+              <a href="tel:+639497692556">
+                <Para>{t("+63 949 769 2556")}</Para>
+              </a>
             </Col>
             <Col lg={8} md={8} sm={12} xs={12}>
               <Language>{t("Address")}</Language>
@@ -97,7 +100,7 @@ const Footer = ({ t }: { t: TFunction }) => {
               <Large to="/">{t("About")}</Large>
               <Large to="/">{t("Blog")}</Large>
               <Large to="/">{t("Press")}</Large>
-              <Large to="/">{t("Careers & Culture")}</Large>
+              <Large to="/">{t("Careers & Culture")}</v>
             </Col>
             <Col lg={6} md={6} sm={12} xs={12}>
               <Empty />

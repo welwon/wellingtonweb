@@ -16,6 +16,18 @@ export const LogoContainer = styled(Link)`
   flex-direction: column;
 `;
 
+export const LogoH1 = styled("h1")`
+  font-size: 30px;
+  margin: 0;
+  color: #096192;
+`;
+
+export const LogoH3 = styled("h3")`
+  font-size: 20px;
+  margin: 0;
+  color: #096192;
+`;
+
 export const NavLink = styled("div")`
   display: inline-block;
   text-align: center;
