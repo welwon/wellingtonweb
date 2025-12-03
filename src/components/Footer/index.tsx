@@ -60,29 +60,9 @@ const Footer = ({ t }: { t: TFunction }) => {
               </a>
             </Col>
             <Col lg={8} md={8} sm={12} xs={12}>
-              <Title>{t("Policy")}</Title>
-              <Large to="/">{t("Application Security")}</Large>
-              <Large to="/">{t("Software Principles")}</Large>
-            </Col>
-            <Col lg={6} md={6} sm={12} xs={12}>
-              <Empty />
-              <Large to="/">{t("Support Center")}</Large>
-              <Large to="/">{t("Customer Support")}</Large>
-            </Col>
-          </Row>
-          <Row justify="space-between">
-            <Col lg={10} md={10} sm={12} xs={12}>
-              <Empty />
               <Language>{t("Address")}</Language>
               <Para>North Fairview, Quezon City</Para>
               <Para>Metro Manila, Philippines 1121</Para>
-            </Col>
-            <Col lg={8} md={8} sm={12} xs={12}>
-              <Title>{t("Company")}</Title>
-              <Large to="/">{t("About")}</Large>
-              <Large to="/">{t("Blog")}</Large>
-              <Large to="/">{t("Press")}</Large>
-              <Large to="/">{t("Careers & Culture")}</Large>
             </Col>
             <Col lg={6} md={6} sm={12} xs={12}>
               <Label htmlFor="select-lang">{t("Language")}</Label>
@@ -106,6 +86,25 @@ const Footer = ({ t }: { t: TFunction }) => {
               </LanguageSwitchContainer>
             </Col>
           </Row>
+          {/*<Row justify="space-between">
+            <Col lg={10} md={10} sm={12} xs={12}>
+              <Title>{t("Policy")}</Title>
+              <Large to="/">{t("Application Security")}</Large>
+              <Large to="/">{t("Software Principles")}</Large>
+            </Col>
+            <Col lg={8} md={8} sm={12} xs={12}>
+              <Title>{t("Company")}</Title>
+              <Large to="/">{t("About")}</Large>
+              <Large to="/">{t("Blog")}</Large>
+              <Large to="/">{t("Press")}</Large>
+              <Large to="/">{t("Careers & Culture")}</Large>
+            </Col>
+            <Col lg={6} md={6} sm={12} xs={12}>
+              <Empty />
+              <Large to="/">{t("Support Center")}</Large>
+              <Large to="/">{t("Customer Support")}</Large>
+            </Col>
+          </Row>*/}
         </Container>
       </FooterSection>
       <Extra></Extra>
