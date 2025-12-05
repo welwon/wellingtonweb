@@ -5,6 +5,7 @@ import { withTranslation } from "react-i18next";
 import { ContentBlockProps } from "./types";
 import { Button } from "../../common/Button";
 import { SvgIcon } from "../../common/SvgIcon";
+import { Image } from "../../common/Image";
 import {
   ContentSection,
   Content,
@@ -18,6 +19,7 @@ import {
 
 const ContentBlock = ({
   icon,
+  image,
   title,
   content,
   section,
@@ -44,6 +46,7 @@ const ContentBlock = ({
         >
           <Col lg={11} md={11} sm={12} xs={24}>
             {/*<SvgIcon src={icon} width="100%" height="100%" />*/}
+            <Image src={image} width="100%" height="100%" />
           </Col>
           <Col lg={11} md={11} sm={11} xs={24}>
             <ContentWrapper>

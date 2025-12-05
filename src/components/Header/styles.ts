@@ -9,6 +9,10 @@ export const HeaderSection = styled("header")`
     align-items: center;
     text-align: center;
   }
+  position: fixed;
+  width: 100%;
+  background-color: #fff;
+  z-index: 1;
 `;
 
 export const LogoContainer = styled(Link)`
